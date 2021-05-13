@@ -41,7 +41,7 @@ def Knuth_Morris_Pratt_algorithm(the_required_set, basic_text):
         return "The required set not found"
 
 
-basic_text = "The thirty-three thieves thought that they thrilled the throne throughout Thursday"
-the_required_set = "Monday"
+basic_text = "Peter Piper Picked a Peck of Pickled Peppers"
+the_required_set = "Pickled"
 
 print(Knuth_Morris_Pratt_algorithm(the_required_set, basic_text))
